@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.choise {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 900px;
+}
+.box {
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.content {
+    margin: auto;
+    width: 900px;
+}
+.catbox {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: blue;
+    float: left;
+    height: 500px;
+}
+.dogbox {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: green;
+    float: right;
+    height: 500px;
+}
+.petimg {
+    width: 100%;
+    max-width: 600px;
+    height: 370px;
+}
